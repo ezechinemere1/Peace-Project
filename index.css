@@ -1,0 +1,130 @@
+.main_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#logo2 {
+  width: 60px;
+  height: 60px;
+}
+
+.image_container {
+  width: 50%;
+}
+
+.logo_container {
+  display: flex;
+  align-items: center;
+}
+
+.form_container {
+  width: 50%;
+  background-color: rgb(249, 251, 248);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.greeting_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.form_holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-group {
+  width: 70%;
+  padding-top: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input_value {
+  width: 100%; /* Adjusted for responsiveness */
+  height: 30px;
+  border-radius: 7px;
+  padding: 8px;
+  border: 3px solid rgb(218, 227, 222);
+  margin-bottom: 10px; /* Added for spacing */
+}
+
+.button_container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-top: 15px;
+}
+
+button {
+  width: 85%; /* Adjusted for responsiveness */
+  height: 40px;
+  background-color: rgb(71, 101, 67);
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.account_eqir {
+  padding-left: 150px;
+}
+
+.rememberMe_input {
+  display: flex;
+}
+
+.rememberMe_container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.copy_right {
+  margin: auto;
+  margin-left: 20px;
+  margin-top: 20px; /* Adjusted for responsiveness */
+}
+
+/* Media Query for Tablet */
+@media (max-width: 768px) {
+  .main_container {
+    flex-direction: column;
+  }
+
+  .image_container {
+    display: none;
+  }
+
+  .form_container {
+    width: 100%;
+  }
+
+  .form {
+    margin-left: 0;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+
+  .button_container {
+    padding-left: 20px;
+  }
+}

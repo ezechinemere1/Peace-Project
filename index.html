@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Peace Project</title>
+  </head>
+  <body>
+    <div class="main_container">
+      <div class="form_container">
+        <div class="logo_container">
+         <div> <img src="./image_holder/logo3-removebg-preview.png"  id="logo2" alt="logo" /></div>
+          <h2>PeaceUI</h2>
+        </div>
+        <div class="form">
+          <div class="greeting_text">
+            <h1>Welcome Back</h1>
+            <p>Please Enter Your Details</p>
+          </div>
+          <form action="/submit" method="post" class="form_holder">
+            <div class="form-group">
+              <label for="input1">Email</label>
+              <input
+                type="email"
+                placeholder="Enter you password"
+                class="input_value"
+                name="input1"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="input2">Password</label>
+              <input type="password" class="input_value" name="input2" required />
+            </div>
+
+           
+          </form>
+          <div class="rememberMe_container">
+            <div class="rememberMe_input">
+              <input
+                type="checkbox"
+                id="rememberMe"
+                name="rememberMe"
+                value="checked"
+              />
+              <label for="rememberMe">Remember for 30 days</label>
+           
+            </div>
+            <div>Forgot password</div>
+          </div>
+          <div class="button_container">
+            <button type="submit">Sign In</button>
+            <p class="account_eqir">Don't have an Account? Sign in</p>
+          </div>
+        </div>
+        <p class="copy_right">&#169; Untitled UI 2027</p>
+      </div>
+      <div class="image_container">
+        <img src="./image_holder/image_5.jpg" alt="login_image" />
+      </div>
+    </div>
+  </body>
+</html>
